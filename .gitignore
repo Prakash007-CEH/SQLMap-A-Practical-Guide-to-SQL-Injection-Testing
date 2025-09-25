@@ -1,0 +1,3 @@
+node_modules/
+vulnerable_apps/screenshots/
+.env
